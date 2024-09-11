@@ -1,0 +1,54 @@
+{
+    "Navbar": {
+        "Home": "首頁",
+        "About": "關於我",
+        "Projects": "專案",
+        "Blog": "網誌",
+        "Login": "登入",
+        "Logout": "登出"
+    },
+    "Home": {
+        "welcome": "歡迎來到我的 Next.js 應用",
+        "language": "這是一個使用 Next.js 和 TypeScript 構建的應用程序。"
+    },
+    "About": {
+        "title": "關於我",
+        "description": "這是關於我的頁面。",
+        "TimelineWork": [
+            {
+                "time": "2008",
+                "company": "IEI",
+                "title": "媒體設計師",
+                "content": "UIUX 設計"
+            },
+            {
+                "time": "2011",
+                "company": "Delta",
+                "title": "前端工程師",
+                "content": "響應式網頁開發"
+            },
+            {
+                "time": "2014",
+                "company": "Google",
+                "title": "軟體工程師",
+                "content": "全端開發"
+            },
+            {
+                "time": "2017",
+                "company": "Facebook",
+                "title": "前端技術主管",
+                "content": "React 和 Redux"
+            },
+            {
+                "time": "2020",
+                "company": "Tesla",
+                "title": "資深 UI/UX 設計師",
+                "content": "UI 設計和用戶體驗"
+            }
+        ]
+    },
+    "Projects": {
+        "title": "專案",
+        "description": "這是關於我的頁面。"
+    }
+}
