@@ -1,0 +1,28 @@
+
+.carousel{
+    @apply w-full bg-transparent h-[240px] ;
+
+    div{
+        @apply drop-shadow-none;
+        svg{
+            circle{
+                @apply  block z-10 bg-red-500;
+            }
+       
+        }
+    }  
+}
+
+.box{
+    @apply w-full h-[200px] opacity-90 bg-transparent drop-shadow-none; 
+}
+
+.paper1{
+    @apply w-full h-[200px] opacity-90 bg-transparent drop-shadow-none;
+}
+.paper2{
+    @apply w-full h-[200px] opacity-90 bg-transparent drop-shadow-none bg-[url('/images/javascript-closures.png')]  ;
+}
+.paper3{
+    @apply w-full h-[200px] opacity-90 bg-transparent drop-shadow-none;
+}

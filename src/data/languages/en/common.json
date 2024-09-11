@@ -1,0 +1,54 @@
+{
+  "Navbar": {
+    "Home": "Home",
+    "About": "About",
+    "Projects": "Projects",
+    "Blog": "Blog",
+    "Login": "Login",
+    "Logout": "Logout"
+  },
+  "Home": {
+    "welcome": "Welcome",
+    "language": "language"
+  },
+  "About": {
+    "title": "About",
+    "description": "This is the About page.",
+    "TimelineWork": [
+      {
+        "time": "2008",
+        "company": "IEI",
+        "title": "Media Designer",
+        "content": "UIUX"
+      },
+      {
+        "time": "2011",
+        "company": "Delta",
+        "title": "Frontend Engineer",
+        "content": "RWD Web Dev"
+      },
+      {
+        "time": "2014",
+        "company": "Google",
+        "title": "Software Engineer",
+        "content": "Full Stack Development"
+      },
+      {
+        "time": "2017",
+        "company": "Facebook",
+        "title": "Lead Frontend Engineer",
+        "content": "React and Redux"
+      },
+      {
+        "time": "2020",
+        "company": "Tesla",
+        "title": "Senior UI/UX Designer",
+        "content": "UI Design and User Experience"
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Projects",
+    "description": "This is the Projects page."
+  }
+}
