@@ -1,3 +1,4 @@
+// src/app/Blog/[slug]/page.tsx
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -34,14 +35,20 @@ async function getPostData(slug: string) {
   } as PostData;
 }
 
+// 獲取所有文章的數據（只返回 slug）
 async function getAllPosts() {
   const filenames = fs.readdirSync(postsDirectory);
-  const posts = filenames.map((filename) => {
-    return {
-      slug: filename.replace(/\.md$/, ''),
-    };
-  });
-  return posts;
+  return filenames.map((filename) => ({
+    slug: filename.replace(/\.md$/, ''),
+  }));
+}
+
+// 生成靜態的路由參數
+export async function generateStaticParams() {
+  const posts = await getAllPosts();
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
 }
 
 const BlogPost = async ({ params }: { params: { slug: string } }) => {

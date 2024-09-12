@@ -1,7 +1,7 @@
 //src/app/layout.tsx
 "use client"
 import { useEffect } from 'react';
-import { Noto_Sans_TC } from "next/font/google";
+//import { Noto_Sans_TC } from "next/font/google";
 import { AuthProvider } from '../context/auth-context';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
@@ -14,11 +14,11 @@ import Footer from '@/components/Footer';
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const notoSansTC = Noto_Sans_TC({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-  display: 'swap',
-});
+// const notoSansTC = Noto_Sans_TC({
+//   weight: ['400', '700'],
+//   subsets: ['latin'],
+//   display: 'swap',
+// });
 
 interface FooterData{
   title: string;
@@ -57,7 +57,8 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
   return (
     <html lang={currentLanguage}>
-      <body className={`${notoSansTC.className} dark:bg-stone-900 bg-slate-200`} >
+      {/* <body className={`${notoSansTC.className} dark:bg-stone-900 bg-slate-200`} > */}
+      <body className={` dark:bg-stone-900 bg-slate-200`} >
         <CssBaseline />
         <ThemeProvider theme={theme}>
           {/* 把 toggleTheme 傳遞給 NavigationBar */}
