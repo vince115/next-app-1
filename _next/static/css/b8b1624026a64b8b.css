@@ -1,0 +1,1 @@
+#root *{display:flex;align-items:center;justify-content:center}@keyframes fade-in{0%{opacity:0}to{opacity:1}}canvas{opacity:0;touch-action:none;animation:fade-in 1s ease .3s forwards;filter:saturate(1.15) hue-rotate(345deg)}canvas:active{cursor:grabbing}
