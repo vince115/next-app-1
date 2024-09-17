@@ -17,6 +17,7 @@ interface TimelineWorkProps {
   company: string;
   title: string;
   content: string;
+  skills:string;
 }
 
 const TimelineWork: React.FC<TimelineWorkProps> = ({
@@ -25,6 +26,7 @@ const TimelineWork: React.FC<TimelineWorkProps> = ({
   company,
   title,
   content,
+  skills
 }) => {
   return (
     <>
@@ -43,6 +45,8 @@ const TimelineWork: React.FC<TimelineWorkProps> = ({
           <Typography className="font-bold">{company}</Typography>
           <Typography className="text-blue-500">{title}</Typography>
           <Typography className="text-gray-400">{content}</Typography>
+          
+          <Typography className="text-gray-600">{skills}</Typography>
         </TimelineContent>
       </TimelineItem>
               

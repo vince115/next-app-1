@@ -1,4 +1,5 @@
 // src/app/Blog/[slug]/page.tsx
+
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -8,6 +9,7 @@ import Container from '@mui/material/Container';
 import Paper from "@mui/material/Paper";
 import Typography from '@mui/material/Typography';
 import PaginationButtons from '../PaginationButtons'; // 引入客戶端組件
+import dynamic from 'next/dynamic'; // 引入 dynamic 進行客戶端組件加載
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
@@ -19,6 +21,11 @@ interface PostData {
   categories?: string[];
   tags?: string[];
 }
+
+// 動態引入語法高亮組件，確保它只在客戶端渲染
+const CodeHighlighter = dynamic(() => import('@/components/CodeHighlighter'), {
+  ssr: false, // 禁用伺服器端渲染，僅在客戶端渲染
+});
 
 async function getPostData(slug: string) {
   const fullPath = path.join(postsDirectory, `${slug}.md`);
@@ -62,6 +69,8 @@ const BlogPost = async ({ params }: { params: { slug: string } }) => {
   const currentIndex = allPosts.findIndex((post) => post.slug === slug); 
   const totalPages = allPosts.length; 
 
+
+
   return (
     <>
       <Container className='m-4'>
@@ -87,7 +96,8 @@ const BlogPost = async ({ params }: { params: { slug: string } }) => {
             </div>
           )}
 
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <CodeHighlighter contentHtml={postData.contentHtml} />
+
           <div id="disqus_thread"></div> 
 
           {/* 使用客戶端組件處理分頁按鈕 */}

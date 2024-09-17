@@ -5,6 +5,7 @@ import matter from 'gray-matter';
 import Container from '@mui/material/Container';
 import Paper from "@mui/material/Paper";
 import Pagination from './Pagination';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 
@@ -44,17 +45,16 @@ function getAllPosts(): Post[] {
   return allPostsData;
 }
 
-// Server component to render the blog page
-const BlogPage = async () => {
+const BlogPage: React.FC = () => {  
   const posts = getAllPosts();
   
   return (
     <Container>
         <Paper className="m-2 p-2 dark:bg-stone-900">
         <Typography variant="h4" className='p-4 text-blue-500 drop-shadow'>Blog</Typography>
-        <div>   
+        <Box>   
           <Pagination posts={posts} />
-        </div>
+        </Box>
       </Paper>
     </Container>
   );

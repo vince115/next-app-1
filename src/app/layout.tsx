@@ -1,7 +1,6 @@
 //src/app/layout.tsx
 "use client"
 import { useEffect } from 'react';
-//import { Noto_Sans_TC } from "next/font/google";
 import { AuthProvider } from '../context/auth-context';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
@@ -13,12 +12,9 @@ import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'highlight.js/styles/atom-one-dark.css';
+import hljs from 'highlight.js';
 
-// const notoSansTC = Noto_Sans_TC({
-//   weight: ['400', '700'],
-//   subsets: ['latin'],
-//   display: 'swap',
-// });
 
 interface FooterData{
   title: string;
@@ -54,6 +50,13 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   useEffect(() => {
     dispatch(loadTranslations(currentLanguage));
   }, [dispatch, currentLanguage]);
+
+  // 在頁面加載後應用 Highlight.js
+  useEffect(() => {
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightElement(block as HTMLElement);  // 使用 highlightElement 而不是 highlightBlock
+    });
+  }, [children]);  // 在 children 變更時應用高亮
 
   return (
     <html lang={currentLanguage}>

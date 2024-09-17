@@ -59,8 +59,8 @@ const Home: React.FC = () => {
     Card: CardHomeData = [
       {
         imgSrc: "",
-        titleLabel: "",
-        contentLabel: "",
+        titleLabel: "Loading...",
+        contentLabel: "Loading...",
         linkhref: "",
         buttonLabel: "",
         link2href: "",
@@ -71,12 +71,11 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <Carousel
-        className={`${style.carousel} px-2`} 
+      <Carousel       
         sx={{ boxShadow: 0, ".MuiButtonBase-root": { zIndex: 10 } }}
-        interval={3000} // 確保這裡的 interval 設定正確
-        //navButtonsAlwaysVisible // 添加這行以確保導航按鈕始終可見
-      
+        className={`${style.carousel} mx-0`} 
+        interval={9000} // 確保這裡的 interval 設定正確
+        //navButtonsAlwaysVisible // 添加這行以確保導航按鈕始終可見      
       >
         {CarouselHomeData.map((item, index) => (
           <CarouselHome

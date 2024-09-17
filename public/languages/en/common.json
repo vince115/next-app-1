@@ -9,15 +9,9 @@
     "Logout": "Logout"
   },
   "Home": {
-    "welcome": "Welcome",
-    "language": "language",
+    "welcome": "Welcome to My HomePage",
+    "language": "This is website build with Next.js",
     "Carousel": [
-      {
-        "imgSrc": "/images/banner_ansicht.jpg",
-        "titleLabel": "Frist Item",
-        "linkhref": "",
-        "buttonLabel": "Click me"
-      },
       {
         "imgSrc": "/images/banner_vision1.jpg",
         "titleLabel": "Second Item",
@@ -34,8 +28,8 @@
     "Card": [
       {
         "imgSrc": "/images/card_nextjsreact.jpg",
-        "titleLabel": "Frist Item",
-        "contentLabel": "Frist Item",
+        "titleLabel": "The Latest Frontend Frameworks",
+        "contentLabel": "Next.js builds on React by adding Server-Side Rendering (SSR) and Static Site Generation (SSG), enhancing SEO and performance. It comes with a built-in routing system, making it ideal for modern web applications.",
         "linkhref": "",
         "buttonLabel": "SHARE",
         "link2href": "",
@@ -43,8 +37,8 @@
       },
       {
         "imgSrc": "/images/card_mui_bs_tailwind.jpg",
-        "titleLabel": "Frist Item",
-        "contentLabel": "Frist Item",
+        "titleLabel": "New Technologies in UI Frameworks",
+        "contentLabel": "Focusing on improving development efficiency and design consistency, selecting the most suitable framework based on needs and environment can lead to more efficient development.",
         "linkhref": "",
         "buttonLabel": "SHARE",
         "link2href": "",
@@ -52,8 +46,8 @@
       },
       {
         "imgSrc": "/images/card_visual3d.jpg",
-        "titleLabel": "Frist Item",
-        "contentLabel": "Frist Item",
+        "titleLabel": "Applications of Data Visualization",
+        "contentLabel": "Presenting data graphically makes it easier to understand and analyze. Data visualization is not limited to static charts; it can also enhance interactivity and immersion, aiding in deeper data comprehension.",
         "linkhref": "",
         "buttonLabel": "SHARE",
         "link2href": "",
@@ -63,11 +57,52 @@
   },
   "About": {
     "title": "About",
-    "description": "This is the About page.",
+    "description": "Hi, I'm Vince Lo,\nScorpio, blood type O, a frontend engineer passionate about creativity and challenges.\nWith years of experience in web development, I focus on building web applications with excellent user experiences and outstanding performance.\nI specialize in leveraging modern frontend technologies, combined with design thinking, to transform complex functionalities into intuitive and user-friendly interfaces.",
     "skills": "Skills",
     "school": "School Experience",
     "work": "Work Experience",
     "ChipSkills": [
+      {
+        "skill": "HTML 5",
+        "iconTag": "HtmlIcon",
+        "bgColor": ""
+      },
+      {
+        "skill": "CSS 3",
+        "iconTag": "CssIcon",
+        "bgColor": ""
+      },
+      {
+        "skill": "JavaScript (ES6)",
+        "iconTag": "PolymerIcon",
+        "bgColor": ""
+      },
+      {
+        "skill": "\n",
+        "iconTag": "",
+        "bgColor": ""
+      },
+      {
+        "skill": "SCSS/SASS",
+        "iconTag": "CssIcon",
+        "bgColor": ""
+      },
+      {
+        "skill": "TailwindCSS",
+        "iconTag": "CssIcon",
+        "bgColor": ""
+      },
+      {
+        "skill": "Bootstrap",
+        "iconTag": "CssIcon",
+        "bgColor": ""
+      },
+      
+      {
+        "skill": "\n",
+        "iconTag": "",
+        "bgColor": ""
+      },
       {
         "skill": "React",
         "iconTag": "JavascriptIcon",
@@ -79,79 +114,144 @@
         "bgColor": "LightSalmon"
       },
       {
-        "skill": "Polymer",
-        "iconTag": "PolymerIcon",
-        "bgColor": ""
-      },
-      {
-        "skill": "React",
-        "iconTag": "ReactIcon",
-        "bgColor": "bg-red-300"
-      },
-      {
         "skill": "Vue.js",
         "iconTag": "VueIcon",
         "bgColor": "bg-red-300"
+      },
+      {
+        "skill": "\n",
+        "iconTag": "",
+        "bgColor": ""
+      },
+      {
+        "skill": "PHP",
+        "iconTag": "PhpIcon",
+        "bgColor": "bg-red-300"
+      },
+      {
+        "skill": "RestfulAPI",
+        "iconTag": "ApiIcon",
+        "bgColor": "bg-red-300"
+      },
+      {
+        "skill": "GraphQL",
+        "iconTag": "ApiIcon",
+        "bgColor": "bg-red-300"
+      },
+      {
+        "skill": "\n",
+        "iconTag": "",
+        "bgColor": ""
+      },        
+      {
+        "skill": "D3.js",
+        "iconTag": "JavascriptIcon",
+        "bgColor": "bg-red-300"
+      },
+      {
+        "skill": "Three.js",
+        "iconTag": "JavascriptIcon",
+        "bgColor": "bg-red-300"
+      },
+      {
+        "skill": "React Native",
+        "iconTag": "JavascriptIcon",
+        "bgColor": "bg-red-300"
+      }, 
+      {
+        "skill": "Expo",
+        "iconTag": "JavascriptIcon",
+        "bgColor": "bg-red-300"
       }
     ],
-    "TimelineSchool": [
-      {
-        "time": "1988-1990",
-        "dotColor": "ForestGreen",
-        "school": "High School",
-        "department": "Student",
-        "content": "Natural"
-      },
-      {
-        "time": "2011",
-        "dotColor": "MediumSeaGreen",
-        "school": "Delta",
-        "department": "Frontend Engineer",
-        "content": "RWD Web Dev"
-      },
-      {
-        "time": "2014",
-        "dotColor": "GreenYellow",
-        "school": "Google",
-        "department": "Software Engineer",
-        "content": "Full Stack Development"
-      }
-    ],
-    "TimelineWork": [
-      {
-        "time": "2008",
-        "color": "bg-red-500",
-        "company": "IEI",
-        "title": "Media Designer",
-        "content": "UIUX"
-      },
-      {
-        "time": "2011",
-        "company": "Delta",
-        "color": "bg-orange-500",
-        "title": "Frontend Engineer",
-        "content": "RWD Web Dev"
-      },
-      {
-        "time": "2014",
-        "company": "Google",
-        "color": "bg-yellow-500",
-        "title": "Software Engineer",
-        "content": "Full Stack Development"
-      },
-      {
-        "time": "2017",
-        "company": "Facebook",
-        "title": "Lead Frontend Engineer",
-        "content": "React and Redux"
-      },
-      {
-        "time": "2020",
-        "company": "Tesla",
-        "title": "Senior UI/UX Designer",
-        "content": "UI Design and User Experience"
-      }
-    ]
+      "TimelineSchool": [
+        {
+          "time": "2014/09~2016/07",
+          "dotColor": "ForestGreen",
+          "school": "National Taipei University of Technology",
+          "department": "Department of Interaction Design, Master's Degree",
+          "content": "[Thesis] Website Design for Information Visualization in Children's Digital Library: A Case Study of Dream Picture Book Database"
+        },
+        {
+          "time": "2001/09~2005/07",
+          "dotColor": "MediumSeaGreen",
+          "school": "National Yunlin University of Science and Technology",
+          "department": "Department of Industrial Design",
+          "content": "[Project] Green Music - Digital MP3 Design"
+        },
+        {
+          "time": "1994/09~1997/07",
+          "dotColor": "GreenYellow",
+          "school": "Taipei Municipal Zhongzheng Senior High School",
+          "department": "General Education (Second Division)",
+          "content": ""
+        }
+      ],
+      "TimelineWork": [
+        {
+          "time": "2022/12~2024/10",
+          "company": "National Taiwan Normal University",
+          "title": "System Engineer",
+          "content": "Frontend optimization, photo upload and review mechanism in the registration system backend",
+          "skills": "PHP MySQL Bootstrap RWD"
+        },
+        {
+          "time": "2021/10~2022/10",
+          "company": "Ares Infernational Corp.(WFH/Stationary work)",
+          "title": "Frontend Engineer",
+          "content": "Responsive web development, Next.js web development/Vue web development",
+          "skills": "Next.js TailwindCSS Git SourceTree / Vue3 Pinia Gitlab"
+        },
+        {
+          "time": "2017/09~2018/07",
+          "company": "Judicial Yuan Information Department",
+          "title": "Software Engineer",
+          "content": "Font customization and related system maintenance and procurement",
+          "skills": "HTML/CSS Bootstrap ASP VMWare"
+        },
+        {
+          "time": "2016/03~2017/08",
+          "company": "Delta Electronics Inc. (Neihu)",
+          "title": "Frontend Engineer",
+          "content": "Development and integration of management interface for video equipment",
+          "skills": "Bootstrap JQuery JSP RestfulAPI MySQL"
+        },
+        {
+          "time": "2012/10~2015/08",
+          "company": "Delta Electronics Inc. (Taoyuan Plant 3)",
+          "title": "Software Engineer",
+          "content": "Development of factory energy-saving web management system/smart meter ID interface simulation",
+          "skills": "UI CSS JQuery ASP.net PostgreSQL / Solidworks V-Ray"
+        },
+        {
+          "time": "2011/11~2012/09",
+          "company": "Sinsoft Co., Ltd./Taiwan Shin Kong Security Co., Ltd.",
+          "title": "Project Engineer",
+          "content": "Interface design for video surveillance systems",
+          "skills": "HTML5/CSS3 ASP.net"
+        },
+        {
+          "time": "2008/05~2011/08",
+          "company": "IEI Integration Corp.",
+          "title": "Multimedia Web Designer",
+          "content": "Corporate website design, industrial computer interface design, e-newsletters/catalogs",
+          "skills": "ASP Flash SketchUp V-Ray"
+        },
+        {
+          "time": "2007/05~2008/05",
+          "company": "Small and Medium Enterprises Association of R.O.C.",
+          "title": "Web Designer",
+          "content": "UI design and user experience",
+          "skills": "Dreamweaver Flash ActionScript ASP Access"
+        },
+        {
+          "time": "2007/05~2008/05",
+          "company": "Zhenghui (Food, Tobacco, and Beverage Manufacturing, 30~100 employees)",
+          "title": "Web Designer",
+          "content": "FLASH dynamic web pages / ASP web development for internal company project systems",
+          "skills": "FLASH ASP MS-SQL"
+        }
+      ]
   },
   "Projects": {
     "title": "Projects",
