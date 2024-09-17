@@ -23,6 +23,7 @@ import style from "../components/carouselhome.module.scss"
     return (
       <>      
   <Container className={`${style.box} flex justify-center items-center`}>
+<<<<<<< HEAD
   
   <Box className="p-2">
   <Image
@@ -33,6 +34,15 @@ import style from "../components/carouselhome.module.scss"
     height={200}
   />
   </Box>
+=======
+  <Image
+    src={imgSrc}
+    alt=""
+    className="rounded-sm"
+    width={1150}
+    height={200}
+  />
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
   <Box sx={{ position: "absolute", zIndex: 8 }}>
     <Typography
       sx={{

@@ -1,7 +1,10 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+<<<<<<< HEAD
 @import 'highlight.js/styles/atom-one-dark.css';
+=======
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
 /* @tailwind base; */
 /* @tailwind components; */
 /* @tailwind utilities; */

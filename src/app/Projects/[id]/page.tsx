@@ -7,9 +7,12 @@ import Image from 'next/image';
 import Container from '@mui/material/Container';
 import Paper from "@mui/material/Paper";
 import Typography from '@mui/material/Typography';
+<<<<<<< HEAD
 import Box from '@mui/material/Box';
 import Button  from '@mui/material/Button';
 import Link from 'next/link';
+=======
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
 
 interface ProjectPageProps {
   params: {
@@ -38,12 +41,15 @@ export default function ProjectPage({ params }: ProjectPageProps) {
       <p>{data.description}</p>
       <Image src={data.imageUrl} alt={data.title} width={600} height={400} />
       <div dangerouslySetInnerHTML={{ __html: content }} />
+<<<<<<< HEAD
 
       <Box
         display="flex"
         justifyContent="center"
         className="mt-8"
       ><Link href={`/Projects`} passHref><Button>BACK</Button></Link></Box>
+=======
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
       </Paper>
     </Container>
   );

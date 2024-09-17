@@ -13,22 +13,44 @@
         "language": "這是一個使用 Next.js 和 TypeScript 構建的應用程序。",
         "Carousel": [
             {
+<<<<<<< HEAD
+=======
+                "imgSrc": "/images/banner_ansicht.jpg",
+                "titleLabel": "Frist Item",
+                "linkhref": "",
+                "buttonLabel": "Click me"
+            },
+            {
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
                 "imgSrc": "/images/banner_vision1.jpg",
                 "titleLabel": "Second Item",
                 "linkhref": "",
                 "buttonLabel": "Click me2"
+<<<<<<< HEAD
               },
               {
+=======
+            },
+            {
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
                 "imgSrc": "/images/banner_program.jpg",
                 "titleLabel": "Second Item",
                 "linkhref": "",
                 "buttonLabel": "Click me2"
+<<<<<<< HEAD
               }
+=======
+            }
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         ],
         "Card": [
             {
                 "imgSrc": "/images/card_nextjsreact.jpg",
+<<<<<<< HEAD
                 "titleLabel": "新進的前端框架",
+=======
+                "titleLabel": "最新進的前端框架",
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
                 "contentLabel": "Next.js 在 React 基礎上增加伺服器端渲染(SSR)、靜態生成(SSG)，提升SEO和性能，內建路由系統，適合構建現代化的 Web 應用。",
                 "linkhref": "",
                 "buttonLabel": "SHARE",
@@ -57,12 +79,17 @@
     },
     "About": {
         "title": "關於我",
+<<<<<<< HEAD
         "description": "嗨，我是 駱金隆，\n天蠍座，Ｏ型，一名熱愛創造和挑戰的前端工程師。\n擁有多年的網站開發經驗，專注於打造使用者體驗優異且性能卓越的網頁應用。\n我擅長運用現代前端技術，結合設計思維，將複雜的功能轉化為直觀、易用的介面。",
         "skills":"專業技能",
+=======
+        "description": "這是關於我的頁面。",
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         "school": "學校經歷",
         "work": "工作經歷",
         "ChipSkills": [
             {
+<<<<<<< HEAD
               "skill": "HTML 5",
               "iconTag": "HtmlIcon",
               "bgColor": ""
@@ -164,20 +191,55 @@
               "bgColor": "bg-red-300"
             }
           ],
+=======
+                "skill": "React",
+                "iconTag": "JavascriptIcon",
+                "bgColor": "LightPink"
+              },
+              {
+                "skill": "Next.js",
+                "iconTag": "JavascriptIcon",
+                "bgColor": "LightSalmon"
+              },
+              {
+                "skill": "Polymer",
+                "iconTag": "PolymerIcon",
+                "bgColor": ""
+              },
+              {
+                "skill": "React",
+                "iconTag": "ReactIcon",
+                "bgColor": "bg-red-300"
+              },
+              {
+                "skill": "Vue.js",
+                "iconTag": "VueIcon",
+                "bgColor": "bg-red-300"
+              }
+        ],
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         "TimelineSchool": [
             {
                 "time": "2014/09~2016/07",
                 "dotColor": "ForestGreen",
                 "school": "國立臺北科技大學",
                 "department": "互動設計系 碩士",
+<<<<<<< HEAD
                 "content": "[論文]兒童數位圖書館資訊視覺化網站設計─以圓夢繪本資料庫為例"
+=======
+                "content": ""
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2001/09~2005/07",
                 "dotColor": "MediumSeaGreen",
                 "school": "國立雲林科技大學",
                 "department": "工業設計系",
+<<<<<<< HEAD
                 "content": "[專題]綠音盎然-數位MP3設計"
+=======
+                "content": ""
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "1994/09~1997/07",
@@ -192,64 +254,102 @@
                 "time": "2022/12~2024/10",
                 "company": "國立台灣師範大學",
                 "title": "系統工程師",
+<<<<<<< HEAD
                 "content": "網頁前端優化 報名系統後台考生照片上傳審核與發信機制",
                 "skill":"PHP MySQL Bootstrap RWD"
+=======
+                "content": "網頁前端優化 \n後台考生照片上傳審核與發信機制"
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2021/10~2022/10",
                 "company": "資通電腦股份有限公司",
                 "title": "前端工程師",
+<<<<<<< HEAD
                 "content": "響應式網頁開發 Ｎext.js 網頁開發/ Vue網頁開發",
                 "skill":"Next.js TailwindCSS Git SorceTree/ Vue3 Pinia Gitlab"
+=======
+                "content": "響應式網頁開發 Ｎext.js 網頁開發/ Vue網頁開發"
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2017/09~2018/07",
                 "company": "司法院 資訊處",
                 "title": "軟體工程師",
+<<<<<<< HEAD
                 "content": "造字需求及相關系統維護及資訊採購",
                 "skill":"Html/CSS Bootstrap ASP VMWare"
+=======
+                "content": "全端開發 "
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2016/03~2017/08",
                 "company": "台達電子工業股份有限公司（內湖）",
                 "title": "前端工程師",
+<<<<<<< HEAD
                 "content": "視訊設備相關管理介面開發及串接",
                 "skill": "Bootstrap JQuery JSP RestfulAPI MySQL"
+=======
+                "content": "React 和 Redux"
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2012/10~2015/08",
                 "company": "台達電子工業股份有限公司（桃三）",
                 "title": "軟體工程師",
+<<<<<<< HEAD
                 "content": "工廠節能網頁管理系統開發/智能電表ID介面模擬",
                 "skill":"UI CSS JQuery ASP.net PostgreSQL /Solidworks V-Ray"
+=======
+                "content": "UI 設計和用戶體驗"
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2011/11~2012/09",
                 "company": "新誼整合/新光保全子公司",
+<<<<<<< HEAD
                 "title": "專案工程師",
                 "content": "視訊監控系統相關介面設計",
                 "skill":"HTML5/CSS3 ASP.net"
+=======
+                "title": "軟體工程師",
+                "content": "UI 設計和用戶體驗"
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2008/05~2011/08",
                 "company": "威強工業電腦股份有限公司",
+<<<<<<< HEAD
                 "title": "多媒體網頁設計師",
                 "content": "企業形象網站設計/工業電腦介面設計/電子報/型錄",
                 "skill":"ASP Flash Sketchup V-Ray"
+=======
+                "title": "網頁設計師",
+                "content": "UI 設計和用戶體驗"
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2007/05~2008/05",
                 "company": "社團法人中華民國中小企業協會",
                 "title": "網頁設計師",
+<<<<<<< HEAD
                 "content": "UI 設計和用戶體驗",
                 "skills": "Dreamweaver Flash ActionScript ASP Access"
+=======
+                "content": "UI 設計和用戶體驗"
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             },
             {
                 "time": "2007/05~2008/05",
                 "company": "正暉 （食品菸草及飲料製造業 30~100人）",
                 "title": "網頁設計師",
+<<<<<<< HEAD
                 "content": "FLASH動態網頁/公司內部專案系統相關ASP網頁程式開發",
                 "skills":"FLASH ASP MS-SQL"
+=======
+                "content": "FLASH動態網頁 \n公司內部專案系統相關ASP網頁程式開發"
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
             }
         ]
     },

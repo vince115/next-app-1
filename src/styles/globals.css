@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: 'NotoSansTC';
   src: url('/fonts/NotoSansTC.woff2') format('woff2');
@@ -5,6 +6,8 @@
   font-style: normal;
 }
 
+=======
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
 #disqus_thread {
     margin-top: 50px;
   }

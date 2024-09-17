@@ -9,10 +9,23 @@
     "Logout": "Logout"
   },
   "Home": {
+<<<<<<< HEAD
     "welcome": "Welcome to My HomePage",
     "language": "This is website build with Next.js",
     "Carousel": [
       {
+=======
+    "welcome": "Welcome",
+    "language": "language",
+    "Carousel": [
+      {
+        "imgSrc": "/images/banner_ansicht.jpg",
+        "titleLabel": "Frist Item",
+        "linkhref": "",
+        "buttonLabel": "Click me"
+      },
+      {
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         "imgSrc": "/images/banner_vision1.jpg",
         "titleLabel": "Second Item",
         "linkhref": "",
@@ -28,8 +41,13 @@
     "Card": [
       {
         "imgSrc": "/images/card_nextjsreact.jpg",
+<<<<<<< HEAD
         "titleLabel": "The Latest Frontend Frameworks",
         "contentLabel": "Next.js builds on React by adding Server-Side Rendering (SSR) and Static Site Generation (SSG), enhancing SEO and performance. It comes with a built-in routing system, making it ideal for modern web applications.",
+=======
+        "titleLabel": "Frist Item",
+        "contentLabel": "Frist Item",
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         "linkhref": "",
         "buttonLabel": "SHARE",
         "link2href": "",
@@ -37,8 +55,13 @@
       },
       {
         "imgSrc": "/images/card_mui_bs_tailwind.jpg",
+<<<<<<< HEAD
         "titleLabel": "New Technologies in UI Frameworks",
         "contentLabel": "Focusing on improving development efficiency and design consistency, selecting the most suitable framework based on needs and environment can lead to more efficient development.",
+=======
+        "titleLabel": "Frist Item",
+        "contentLabel": "Frist Item",
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         "linkhref": "",
         "buttonLabel": "SHARE",
         "link2href": "",
@@ -46,8 +69,13 @@
       },
       {
         "imgSrc": "/images/card_visual3d.jpg",
+<<<<<<< HEAD
         "titleLabel": "Applications of Data Visualization",
         "contentLabel": "Presenting data graphically makes it easier to understand and analyze. Data visualization is not limited to static charts; it can also enhance interactivity and immersion, aiding in deeper data comprehension.",
+=======
+        "titleLabel": "Frist Item",
+        "contentLabel": "Frist Item",
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         "linkhref": "",
         "buttonLabel": "SHARE",
         "link2href": "",
@@ -57,12 +85,17 @@
   },
   "About": {
     "title": "About",
+<<<<<<< HEAD
     "description": "Hi, I'm Vince Lo,\nScorpio, blood type O, a frontend engineer passionate about creativity and challenges.\nWith years of experience in web development, I focus on building web applications with excellent user experiences and outstanding performance.\nI specialize in leveraging modern frontend technologies, combined with design thinking, to transform complex functionalities into intuitive and user-friendly interfaces.",
+=======
+    "description": "This is the About page.",
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
     "skills": "Skills",
     "school": "School Experience",
     "work": "Work Experience",
     "ChipSkills": [
       {
+<<<<<<< HEAD
         "skill": "HTML 5",
         "iconTag": "HtmlIcon",
         "bgColor": ""
@@ -104,6 +137,8 @@
         "bgColor": ""
       },
       {
+=======
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         "skill": "React",
         "iconTag": "JavascriptIcon",
         "bgColor": "LightPink"
@@ -114,6 +149,7 @@
         "bgColor": "LightSalmon"
       },
       {
+<<<<<<< HEAD
         "skill": "Vue.js",
         "iconTag": "VueIcon",
         "bgColor": "bg-red-300"
@@ -252,6 +288,81 @@
           "skills": "FLASH ASP MS-SQL"
         }
       ]
+=======
+        "skill": "Polymer",
+        "iconTag": "PolymerIcon",
+        "bgColor": ""
+      },
+      {
+        "skill": "React",
+        "iconTag": "ReactIcon",
+        "bgColor": "bg-red-300"
+      },
+      {
+        "skill": "Vue.js",
+        "iconTag": "VueIcon",
+        "bgColor": "bg-red-300"
+      }
+    ],
+    "TimelineSchool": [
+      {
+        "time": "1988-1990",
+        "dotColor": "ForestGreen",
+        "school": "High School",
+        "department": "Student",
+        "content": "Natural"
+      },
+      {
+        "time": "2011",
+        "dotColor": "MediumSeaGreen",
+        "school": "Delta",
+        "department": "Frontend Engineer",
+        "content": "RWD Web Dev"
+      },
+      {
+        "time": "2014",
+        "dotColor": "GreenYellow",
+        "school": "Google",
+        "department": "Software Engineer",
+        "content": "Full Stack Development"
+      }
+    ],
+    "TimelineWork": [
+      {
+        "time": "2008",
+        "color": "bg-red-500",
+        "company": "IEI",
+        "title": "Media Designer",
+        "content": "UIUX"
+      },
+      {
+        "time": "2011",
+        "company": "Delta",
+        "color": "bg-orange-500",
+        "title": "Frontend Engineer",
+        "content": "RWD Web Dev"
+      },
+      {
+        "time": "2014",
+        "company": "Google",
+        "color": "bg-yellow-500",
+        "title": "Software Engineer",
+        "content": "Full Stack Development"
+      },
+      {
+        "time": "2017",
+        "company": "Facebook",
+        "title": "Lead Frontend Engineer",
+        "content": "React and Redux"
+      },
+      {
+        "time": "2020",
+        "company": "Tesla",
+        "title": "Senior UI/UX Designer",
+        "content": "UI Design and User Experience"
+      }
+    ]
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
   },
   "Projects": {
     "title": "Projects",

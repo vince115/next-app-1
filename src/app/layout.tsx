@@ -1,6 +1,10 @@
 //src/app/layout.tsx
 "use client"
 import { useEffect } from 'react';
+<<<<<<< HEAD
+=======
+import { Noto_Sans_TC } from "next/font/google";
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
 import { AuthProvider } from '../context/auth-context';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
@@ -12,9 +16,18 @@ import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+<<<<<<< HEAD
 import 'highlight.js/styles/atom-one-dark.css';
 import hljs from 'highlight.js';
 
+=======
+
+const notoSansTC = Noto_Sans_TC({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
 
 interface FooterData{
   title: string;
@@ -51,6 +64,7 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     dispatch(loadTranslations(currentLanguage));
   }, [dispatch, currentLanguage]);
 
+<<<<<<< HEAD
   // 在頁面加載後應用 Highlight.js
   useEffect(() => {
     document.querySelectorAll('pre code').forEach((block) => {
@@ -62,6 +76,11 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     <html lang={currentLanguage}>
       {/* <body className={`${notoSansTC.className} dark:bg-stone-900 bg-slate-200`} > */}
       <body className={` dark:bg-stone-900 bg-slate-200`} >
+=======
+  return (
+    <html lang={currentLanguage}>
+      <body className={`${notoSansTC.className} dark:bg-stone-900 bg-slate-200`} >
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
         <CssBaseline />
         <ThemeProvider theme={theme}>
           {/* 把 toggleTheme 傳遞給 NavigationBar */}

@@ -6,7 +6,10 @@ const translations = {
   en: enTranslations,
   'zh-tw': zhTWTranslations
 };
+<<<<<<< HEAD
 //https://api.jsonstorage.net/v1/json/7ea283c6-ccff-43ac-bab8-bca3e6ea94a9/d68af286-9d57-4e64-8c67-c854cf464cad
+=======
+>>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { language } = req.query;
