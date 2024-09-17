@@ -8,7 +8,6 @@ export interface PostData {
   title: string;
   description: string;
   imageUrl: string;
-<<<<<<< HEAD
   category: string[];
   technologies: string[];
   date: string;
@@ -25,23 +24,12 @@ export function loadProjectsContent(language: string): PostData[] {
 
   const projects = filenames
     .filter((filename) => filename.endsWith('.md')) 
-=======
-}
-
-export function loadProjectsContent(): PostData[] {
-  const projectsDirectory = path.join(process.cwd(), 'src', 'posts');
-  const filenames = fs.readdirSync(projectsDirectory);
-
-  const projects = filenames
-    .filter((filename) => filename.endsWith('.md')) // Only .md files
->>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
     .map((filename) => {
       const filePath = path.join(projectsDirectory, filename);
       const fileContents = fs.readFileSync(filePath, 'utf-8');
       const { data } = matter(fileContents);
 
       return {
-<<<<<<< HEAD
         id: filename.replace('.md', ''),
         title: data.title,
         description: data.description,
@@ -49,12 +37,6 @@ export function loadProjectsContent(): PostData[] {
         category: data.category || [],
         technologies: data.technologies || [],
         date: data.date, 
-=======
-        id: filename.replace(/\.md$/, ''),
-        title: data.title,
-        description: data.description,
-        imageUrl: data.imageUrl,
->>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
       };
     });
 

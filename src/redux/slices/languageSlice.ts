@@ -14,16 +14,12 @@ const initialState: LanguageState = {
     currentLanguage: 'en',  // 默認語言
     translations: {}
   };
-<<<<<<< HEAD
 
 // API URL 對照表
 const apiUrlMap: { [key: string]: string } = {
   'en' : 'https://api.jsonstorage.net/v1/json/7ea283c6-ccff-43ac-bab8-bca3e6ea94a9/d68af286-9d57-4e64-8c67-c854cf464cad',
   'zh-tw' : 'https://api.jsonstorage.net/v1/json/7ea283c6-ccff-43ac-bab8-bca3e6ea94a9/d9b98e16-9a61-4f36-a3b8-2ea224cdf724'
 };
-=======
-  
->>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
 const languageSlice = createSlice({
     name:'language',
     initialState,
@@ -45,7 +41,6 @@ export type AppThunk = ThunkAction<void, RootState, unknown, any>;
 export const loadTranslations = (language: string) => async (dispatch: any) => {
     try {
       const response = await axios.get(`/languages/${language}/common.json`);
-<<<<<<< HEAD
       const apiUrl = apiUrlMap[language];
       if (!apiUrl) {
         throw new Error(`No API URL found for language: ${language}`);
@@ -53,8 +48,6 @@ export const loadTranslations = (language: string) => async (dispatch: any) => {
   
       //const response = await axios.get(apiUrl);
 
-=======
->>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
       dispatch(setTranslations(response.data));
     } catch (error) {
       console.error('Error loading translations:', error);

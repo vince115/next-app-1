@@ -20,11 +20,7 @@ const ChipSkills: React.FC<SkillsProps>=({
             label={skill}   
             sx={{ 
                     backgroundColor: bgColor,
-<<<<<<< HEAD
                     margin:'4px 2px'
-=======
-                    margin:'0  2px'
->>>>>>> 32b2443aa1b341c46d8f79cd01d26253efa39344
                 }}            
             />
             
