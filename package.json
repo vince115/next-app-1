@@ -13,6 +13,7 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.0.2",
+    "@mui/system": "^6.1.1",
     "@react-spring/three": "^9.7.4",
     "@react-spring/web": "^9.7.4",
     "@react-three/drei": "^9.112.0",
@@ -40,7 +41,7 @@
     "yarn": "^1.22.22"
   },
   "devDependencies": {
-    "@mui/material": "^6.0.1",
+    "@mui/material": "^6.0.0-rc.0",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^22.5.1",
     "@types/nodemailer": "^6.4.15",

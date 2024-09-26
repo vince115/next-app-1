@@ -24,7 +24,7 @@ const Footer:React.FC<FooterProps>=({
     <footer style={{ backgroundColor: '#212529', color: '#fff', padding: '20px 0', marginTop: 'auto' }}>
     <Container>
       <Grid container spacing={4}>
-        <Grid item xs={12} md={6}>
+        <Grid size={{xs:12, md:6}}>
           <Typography variant="h6" gutterBottom>
             {title}
           </Typography>
@@ -32,7 +32,7 @@ const Footer:React.FC<FooterProps>=({
             {description}
           </Typography>
         </Grid>
-        <Grid item xs={12} md={3}>
+        <Grid size={{xs:12, md:3}}>
           <Typography variant="h6" gutterBottom></Typography>
           <ul className='flex flex-nowrap '>
             <li className='pr-2'><Link href='' color="inherit"><FacebookIcon className='text-slate-50'/></Link></li>
