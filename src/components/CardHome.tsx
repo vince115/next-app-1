@@ -31,7 +31,7 @@ const CardHome: React.FC<CardHomeProps> = ({
 }) => {
   return (
     <Grid container spacing={2}>
-     <Grid size={{xs:12, sm:4 }} className="">
+     <Grid size={{xs:12, md:12 }} className="">
         <Card sx={{ maxWidth: 350 }}>
           <CardActionArea>
             <CardMedia
